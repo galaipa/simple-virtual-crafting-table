@@ -1,0 +1,12 @@
+#Messages
+1: Simple Virtual Crafting Table disabled
+2: Simple Virtual Crafting Table enabled!
+3: You don`t have permission to use the PORTABLE CRAFTING TABLE
+4: Opening crafting table...
+5: You don't have enough money to use the PORTABLE CRAFTING TABLE
+6: Price
+#Economy
+#Enable or Disable the economy
+Economy: false 
+#Price to use the PORTABLE CRAFTING TABLE
+Price: 5

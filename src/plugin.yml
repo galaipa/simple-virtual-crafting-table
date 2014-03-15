@@ -1,0 +1,20 @@
+name: SimpleVirtualCraftingTable
+main: io.github.galaipa.craft.Main
+version: 0.1
+author: Galaipa
+description: Simple portable crafting table plugin
+softdepend: [Vault]
+
+commands:
+  craftingtable:
+    description: Name command for items
+    usage: /<command>
+    aliases: [craft]
+    
+permissions:
+  spc.craft:
+    description: Perm to use the portable crafting table
+    default: op
+  spc.free:
+    description: Perm to use the portable crafting table for free
+    deafault: false
