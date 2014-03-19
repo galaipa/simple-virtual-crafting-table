@@ -1,15 +1,15 @@
-name: SimpleVirtualCraftingTable
+name: SimpleVirtualWorkBench
 main: io.github.galaipa.craft.Main
-version: 0.1
+version: 1.0
 author: Galaipa
-description: Simple portable crafting table plugin
+description: Simple portable workbench plugin
 softdepend: [Vault]
 
 commands:
   craftingtable:
     description: Name command for items
     usage: /<command>
-    aliases: [craft]
+    aliases: [craft, workbench, wb]
     
 permissions:
   spc.craft:
