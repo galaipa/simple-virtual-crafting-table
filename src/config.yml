@@ -10,3 +10,7 @@
 Economy: false 
 #Price to use the PORTABLE CRAFTING TABLE
 Price: 5
+#Enable or disable Metrics
+Metrics: true
+#Enable or disable the update check
+Updater: true

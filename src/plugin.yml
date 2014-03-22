@@ -1,6 +1,6 @@
 name: SimpleVirtualWorkBench
 main: io.github.galaipa.craft.Main
-version: 1.0
+version: 2.0
 author: Galaipa
 description: Simple portable workbench plugin
 softdepend: [Vault]
@@ -10,6 +10,9 @@ commands:
     description: Name command for items
     usage: /<command>
     aliases: [craft, workbench, wb]
+  svw:
+    description: Update plugin
+    usage: /<command>    
     
 permissions:
   spc.craft:
@@ -17,4 +20,7 @@ permissions:
     default: op
   spc.free:
     description: Perm to use the portable crafting table for free
-    deafault: false
+    default: false
+  spc.update:
+    description: Perm to use updater command
+    default: op
